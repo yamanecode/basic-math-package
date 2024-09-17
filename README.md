@@ -1,27 +1,31 @@
 # package_name
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package basic-math-testpack is used for calculating:
+	- Addition
+	- Subtraction
+	- Multiplication
+	- Division
+	- Exponential
+	- Root
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install basic-math-testpack
 
 ```bash
-pip install package_name
+pip install basic-math-testpack
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from basic-math-testpack import simplemath
+simplemath.addition()
 ```
 
 ## Author
-My_name
+André Yamane
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
